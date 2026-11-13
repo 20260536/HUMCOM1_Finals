@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Browse verified and licensed mental health professionals near you.">
+    <title>Professionals | MindBridge</title>
+  </head>
+  <body>
+    <p><a href="#main-content">Skip to main content</a></p>
+    <header>
+      <p><a href="index.html"><img src="images/logo.png" alt="MindBridge home" width="185" height="45"></a></p>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="mental-health-tips.html">Mental Health Tips</a></li>
+          <li><a href="professionals.html" aria-current="page">Professionals</a></li>
+          <li><a href="support-groups.html">Support Groups</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section aria-labelledby="pro-heading">
+        <p>Mental Health Professionals</p>
+        <h1 id="pro-heading">Find the Right Support for You.</h1>
+        <p>Browse verified and licensed mental health professionals near you.</p>
+        <p><a href="#browse-professionals">Browse Professionals</a></p>
+        <img src="images/counselling.jpg" alt="A smiling counsellor taking notes while speaking with a client in a bright room" width="433" height="228">
+      </section>
+
+      <section aria-labelledby="browse-heading" id="browse-professionals">
+        <h2 id="browse-heading">Browse Professionals</h2>
+        <form action="professionals.html" method="get">
+          <fieldset>
+            <legend>Filter professionals</legend>
+            <p>
+              <label for="pro-location">Location</label>
+              <input type="text" id="pro-location" name="location" autocomplete="address-level2">
+            </p>
+            <p>
+              <label for="pro-type">Type of professional</label>
+              <select id="pro-type" name="type">
+                <option value="">Any</option>
+                <option value="psychiatrist">Psychiatrist</option>
+                <option value="psychologist">Psychologist</option>
+                <option value="counsellor">Counsellor</option>
+                <option value="social-worker">Social worker</option>
+              </select>
+            </p>
+            <p><button type="submit">Search professionals</button></p>
+          </fieldset>
+        </form>
+      </section>
+
+      <section aria-labelledby="types-heading">
+        <h2 id="types-heading">Types of professionals</h2>
+        <dl>
+          <dt>Psychiatrist</dt>
+          <dd>A medical doctor who can diagnose mental health conditions and prescribe medication.</dd>
+          <dt>Psychologist</dt>
+          <dd>Provides assessment and talk therapy for a wide range of concerns.</dd>
+          <dt>Counsellor</dt>
+          <dd>Offers guidance and support for stress, relationships, grief and life changes.</dd>
+          <dt>Social worker</dt>
+          <dd>Helps connect people with therapy, community services and practical support.</dd>
+        </dl>
+      </section>
+
+      <section aria-labelledby="choose-heading">
+        <h2 id="choose-heading">Choosing the right professional</h2>
+        <ol>
+          <li>Check that the professional is licensed and verified.</li>
+          <li>Think about what you want help with.</li>
+          <li>Ask about fees, availability and whether sessions are in person or online.</li>
+          <li>Choose someone you feel comfortable talking to. It is fine to try more than one.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="pro-next-heading">
+        <h2 id="pro-next-heading">Prefer to connect with peers?</h2>
+        <p>Many people find it helpful to share experiences with others. <a href="support-groups.html">Explore support groups</a>.</p>
+      </section>
+    </main>
+    <footer>
+      <nav aria-label="Footer navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="mental-health-tips.html">Mental Health Tips</a></li>
+          <li><a href="professionals.html">Professionals</a></li>
+          <li><a href="support-groups.html">Support Groups</a></li>
+        </ul>
+      </nav>
+      <p>MindBridge provides general information and resources. It does not replace advice, diagnosis or treatment from a licensed mental health professional.</p>
+      <p><small>&copy; 2026 MindBridge. All rights reserved.</small></p>
+    </footer>
+  </body>
+</html>
