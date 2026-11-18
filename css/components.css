@@ -23,7 +23,7 @@
 }
 
 .hero img {
-  margin-left: auto;
+  margin-left: 300px;
   border-radius: 20px;
   box-shadow: var(--shadow);
 }
