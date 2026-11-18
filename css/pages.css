@@ -1,0 +1,71 @@
+/* pages.css - layouts used by specific kinds of pages */
+
+/* Section intro text */
+.intro {
+  max-width: 40rem;
+  color: var(--muted);
+}
+
+/* Text beside a picture */
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.split img {
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* Long reading pages such as articles and legal text */
+.prose {
+  max-width: 46rem;
+}
+
+.prose h2 {
+  margin-top: 2.25rem;
+}
+
+/* Contact page */
+.contact-layout {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.contact-layout p.field {
+  margin-bottom: 1.1rem;
+}
+
+/* Frequently asked questions */
+.faq-group {
+  max-width: 46rem;
+}
+
+.faq-group h3 {
+  margin-top: 1.5rem;
+}
+
+/* Smaller screens */
+@media (max-width: 760px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 1.75rem;
+  }
+
+  .hero img {
+    margin: 0 auto;
+  }
+
+  .split,
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+
+  main > section {
+    margin: 2.5rem 0;
+  }
+}

@@ -1,0 +1,159 @@
+/* layout.css - header, navigation, page width and footer */
+
+.site-header {
+  background: var(--paper);
+  border-bottom: 1px solid var(--green-200);
+}
+
+.header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 2rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0.75rem 1.25rem;
+}
+
+.brand img {
+  width: 185px;
+}
+
+.main-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav li {
+  margin: 0;
+}
+
+.main-nav a {
+  display: block;
+  padding: 0.5rem 0.15rem;
+  border-bottom: 3px solid transparent;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  border-bottom-color: var(--green-500);
+}
+
+.main-nav a[aria-current="page"] {
+  border-bottom-color: var(--green-900);
+  color: var(--green-900);
+  font-weight: 600;
+}
+
+/* Page content */
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+main > section {
+  margin: 3.5rem 0;
+}
+
+main > section.hero {
+  margin-top: 1.5rem;
+}
+
+/* Breadcrumb trail on inner pages */
+.breadcrumb {
+  margin-top: 1.25rem;
+  font-size: 0.95rem;
+}
+
+.breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.6rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumb li {
+  margin: 0;
+}
+
+.breadcrumb li + li::before {
+  content: "/";
+  margin-right: 0.6rem;
+  color: var(--muted);
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 5rem;
+  padding: 3rem 0 1.5rem;
+  background: var(--green-900);
+  color: var(--green-100);
+}
+
+.footer-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.footer-intro {
+  max-width: 34rem;
+  margin-bottom: 2rem;
+  font-size: 1.15rem;
+  color: var(--white);
+}
+
+.footer-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 2rem;
+}
+
+.footer-columns h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+  color: var(--white);
+}
+
+.footer-columns ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-footer a {
+  color: var(--green-100);
+}
+
+.site-footer a:hover,
+.site-footer a[aria-current="page"] {
+  color: var(--white);
+}
+
+.site-footer a[aria-current="page"] {
+  font-weight: 600;
+}
+
+.site-footer :focus-visible {
+  outline-color: var(--white);
+}
+
+.footer-note {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  font-size: 0.92rem;
+}
+
+.footer-note p {
+  margin-bottom: 0.5rem;
+}
