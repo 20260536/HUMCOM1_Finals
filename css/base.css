@@ -1,5 +1,3 @@
-/* base.css - colours, typography and global defaults */
-
 :root {
   --green-900: #133d29;
   --green-700: #2f6b4c;
@@ -92,7 +90,6 @@ a:hover {
   border-radius: 4px;
 }
 
-/* Skip link: hidden until it receives keyboard focus */
 .skip-link {
   position: absolute;
   left: 1rem;
@@ -108,7 +105,6 @@ a:hover {
   top: 1rem;
 }
 
-/* Hidden visually but still read by screen readers */
 .visually-hidden {
   position: absolute;
   width: 1px;

@@ -1,12 +1,8 @@
-/* pages.css - layouts used by specific kinds of pages */
-
-/* Section intro text */
 .intro {
   max-width: 40rem;
   color: var(--muted);
 }
 
-/* Text beside a picture */
 .split {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -19,7 +15,6 @@
   box-shadow: var(--shadow);
 }
 
-/* Long reading pages such as articles and legal text */
 .prose {
   max-width: 46rem;
 }
@@ -49,7 +44,6 @@
   margin-top: 1.5rem;
 }
 
-/* Smaller screens */
 @media (max-width: 760px) {
   .hero {
     grid-template-columns: 1fr;
