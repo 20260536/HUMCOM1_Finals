@@ -49,7 +49,6 @@
   font-weight: 600;
 }
 
-/* Page content */
 main {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -64,7 +63,6 @@ main > section.hero {
   margin-top: 1.5rem;
 }
 
-/* Breadcrumb trail on inner pages */
 .breadcrumb {
   margin-top: 1.25rem;
   font-size: 0.95rem;
@@ -89,7 +87,6 @@ main > section.hero {
   color: var(--muted);
 }
 
-/* Footer */
 .site-footer {
   margin-top: 5rem;
   padding: 3rem 0 1.5rem;
