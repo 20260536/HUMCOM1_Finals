@@ -14,10 +14,6 @@
   padding: 0.75rem 1.25rem;
 }
 
-.brand img {
-  width: 185px;
-}
-
 .main-nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -88,8 +84,7 @@ main > section.hero {
 }
 
 .site-footer {
-  margin-top: 5rem;
-  padding: 3rem 0 1.5rem;
+  padding: 1rem 0 1rem;
   background: var(--green-900);
   color: var(--green-100);
 }
@@ -101,7 +96,6 @@ main > section.hero {
 }
 
 .footer-intro {
-  max-width: 34rem;
   margin-bottom: 2rem;
   font-size: 1.15rem;
   color: var(--white);
