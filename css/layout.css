@@ -96,7 +96,6 @@ main > section.hero {
 }
 
 .footer-intro {
-  margin-bottom: 2rem;
   font-size: 1.15rem;
   color: var(--white);
 }
@@ -137,8 +136,8 @@ main > section.hero {
 }
 
 .footer-note {
-  margin-top: 2.5rem;
-  padding-top: 1.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.25);
   font-size: 0.92rem;
 }
